@@ -1,0 +1,41 @@
+{
+  "name": "warenhaus",
+  "version": "1.0.0",
+  "description": "Drag and drop file upload service focusing on portability and self-hosting",
+  "main": "main/index.js",
+  "scripts": {
+    "start": "node main/index.js",
+    "test": "eslint main/",
+    "fix": "eslint --fix main/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TasosY2K/warenhaus.git"
+  },
+  "keywords": [
+    "warenhaus",
+    "storage",
+    "filehost",
+    "drag and drop",
+    "discord",
+    "upload"
+  ],
+  "author": "leandev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TasosY2K/warenhaus/issues"
+  },
+  "homepage": "https://github.com/TasosY2K/warenhaus#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "btoa": "^1.2.1",
+    "cookie-parser": "^1.4.5",
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
