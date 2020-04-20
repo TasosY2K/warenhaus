@@ -4,9 +4,9 @@
   "description": "Drag and drop file upload service focusing on portability and self-hosting",
   "main": "main/index.js",
   "scripts": {
-    "start": "node main/index.js",
-    "test": "eslint main/",
-    "fix": "eslint --fix main/"
+    "serve": "node main/index.js",
+    "watch": "nodemon main/index.js",
+    "lint": "eslint --fix main/"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,6 @@
     "warenhaus",
     "storage",
     "filehost",
-    "drag and drop",
     "discord",
     "upload"
   ],
@@ -28,7 +27,8 @@
   "homepage": "https://github.com/TasosY2K/warenhaus#readme",
   "devDependencies": {
     "eslint": "^6.8.0",
-    "eslint-config-google": "^0.14.0"
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.3"
   },
   "dependencies": {
     "btoa": "^1.2.1",
