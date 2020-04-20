@@ -22,7 +22,7 @@ async function init(client, secret) {
     console.log(`[ROUTE] loaded route ${route.name} in ${new Date().getMilliseconds() - time}ms`);
   });
 
-  const listener = application.listen(process.env.PORT, function() {
+  const listener = application.listen(process.env.PANEL_PORT, function() {
     console.log('[PANEL] listening on port ' + listener.address().port);
   });
 }
